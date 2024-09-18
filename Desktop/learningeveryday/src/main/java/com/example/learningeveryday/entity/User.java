@@ -11,6 +11,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String password;
+    private String daica;
     private String username;
     private String firstname;
     private String lastname;
