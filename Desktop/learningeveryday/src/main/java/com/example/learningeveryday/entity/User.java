@@ -14,6 +14,7 @@ public class User {
     private String acd;
     private String cada;
     private String chuso;
+    private String tuandanh;
     private String password;
     private String username;
     private String firstname;
