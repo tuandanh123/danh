@@ -10,17 +10,11 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
-    private String tenente;
-    private String acd;
-    private String cada;
-    private String chuso;
-    private String tuandanh;
     private String password;
     private String username;
     private String firstname;
     private String lastname;
     private LocalDate dbo;
-
     public String getId() {
         return id;
     }
