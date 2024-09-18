@@ -12,6 +12,7 @@ public class User {
     private String id;
 private String tenente;
     private String acd;
+    private String chuso;
     private String password;
     private String username;
     private String firstname;
