@@ -10,7 +10,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
-private String tenente;
+    private String tenente;
     private String acd;
     private String cada;
     private String password;
